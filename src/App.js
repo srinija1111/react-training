@@ -6,6 +6,10 @@
 // import Sidebar2 from './Sidebar2'
 // import Footer from './Footer'
 // const App = () => {
+import React from "react";
+import PropChildEx from "./PropChildEx";
+import SubChild from "./SubChild";
+import Child1 from "./Child1";
 
 //  return (
 //     <div className="App">
@@ -21,13 +25,13 @@
 // }
 
 // export default App;
-import React, {Component} from 'react'
-import CBCPropsEx from './CBCPropsEx'
-import FBCPropEx from './FBCPropEx'
-export default class App extends Component {
-  render(){
-    return (
-      <div>
+// import React, {Component} from 'react'
+// import CBCPropsEx from './CBCPropsEx'
+// import FBCPropEx from './FBCPropEx'
+// export default class App extends Component {
+//   render(){
+//     return (
+//       <div>
         {/* <CBCPropsEx
         username="srinija"
         age={19}
@@ -35,12 +39,32 @@ export default class App extends Component {
         address={{city:"hitech", area:"madhapur"}}
         sendFun={function(){alert("iofhi")}}
         /> */}
-        <FBCPropEx
-        username="srinu"
-        isMarried={true}
-        hobbies={["chatting","dancing"]}
-        />
-      </div>
-    )
-  }
-}
+      //   <FBCPropEx
+      //   username="srinu"
+      //   isMarried={true}
+      //   hobbies={["chatting","dancing"]}
+      //   />
+      // </div>
+//     )
+//   }
+// }
+// import React from "react";
+// import PropChildEx from "./PropChildEx";
+// import SubChild from "./SubChild";
+// import Child1 from "./Child1";
+
+const App = () => {
+  return (
+    <div>
+      App
+      {/*App
+      <PropChildEx num={1000}>
+        <h1>this is data coming from props children</h1>
+        <SubChild />
+      </PropChildEx>*/}
+      <Child1 university="Malla Reddy University" />
+    </div>
+  );
+};
+
+export default App;
