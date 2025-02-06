@@ -6,10 +6,11 @@
 // import Sidebar2 from './Sidebar2'
 // import Footer from './Footer'
 // const App = () => {
-import React from "react";
-import PropChildEx from "./PropChildEx";
-import SubChild from "./SubChild";
-import Child1 from "./Child1";
+// import React from "react";
+// import PropChildEx from "./PropChildEx";
+// import SubChild from "./SubChild";
+// import Child1 from "./Child1";
+// import CBCStateEx from "./CBCStateEx"
 
 //  return (
 //     <div className="App">
@@ -26,6 +27,7 @@ import Child1 from "./Child1";
 
 // export default App;
 // import React, {Component} from 'react'
+// import CBCStateEx from './CBCStateEx'
 // import CBCPropsEx from './CBCPropsEx'
 // import FBCPropEx from './FBCPropEx'
 // export default class App extends Component {
@@ -48,21 +50,16 @@ import Child1 from "./Child1";
 //     )
 //   }
 // }
-// import React from "react";
+// import React from "react";npm
 // import PropChildEx from "./PropChildEx";
 // import SubChild from "./SubChild";
 // import Child1 from "./Child1";
-
+import React from "react";
+// import CBCStateEx from "./CBCStateEx";
+import FBCStateEx from "./FBCStateEx";
 const App = () => {
   return (
-    <div>
-      App
-      {/*App
-      <PropChildEx num={1000}>
-        <h1>this is data coming from props children</h1>
-        <SubChild />
-      </PropChildEx>*/}
-      <Child1 university="Malla Reddy University" />
+    <div>App <FBCStateEx/>      
     </div>
   );
 };
