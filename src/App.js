@@ -55,11 +55,11 @@
 // import SubChild from "./SubChild";
 // import Child1 from "./Child1";
 import React from "react";
-// import CBCStateEx from "./CBCStateEx";
 import FBCStateEx from "./FBCStateEx";
+import FunctionalComponent from "./FunctionalComponent";
 const App = () => {
   return (
-    <div>App <FBCStateEx/>      
+    <div>App <FunctionalComponent/>      
     </div>
   );
 };
