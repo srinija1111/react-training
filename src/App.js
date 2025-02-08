@@ -1,4 +1,19 @@
 
+
+import MyForm from './MyForm';
+
+
+
+function App() {
+  return (
+    <div className="App">
+     <MyForm></MyForm>
+     </div>
+  );
+}
+
+export default App;
+
 // import React from 'react'
 // import Navbar from './Navbar'
 // import Main from './Main'
@@ -54,14 +69,3 @@
 // import PropChildEx from "./PropChildEx";
 // import SubChild from "./SubChild";
 // import Child1 from "./Child1";
-import React from "react";
-import FBCStateEx from "./FBCStateEx";
-import FunctionalComponent from "./FunctionalComponent";
-const App = () => {
-  return (
-    <div>App <FunctionalComponent/>      
-    </div>
-  );
-};
-
-export default App;
